@@ -1,0 +1,369 @@
+/********** STYLESHEET RESSET ***********/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: arial;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/********** STYLESHEET RESSET END **********/
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+header {
+    background: #151515;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    background: url(../images/logo.png) no-repeat;
+    width: 280px;
+    height: 60px;
+    text-indent: -1000px; 
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav h2 {
+    text-indent: -1000px;
+    height: 0;
+}
+
+nav li {
+    float: left;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li span {
+    color: green;
+    padding-left: 15px;
+}
+
+#banner {
+    max-height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner-box {
+    position: absolute;
+    top: 20%;
+    
+}
+
+.banner-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#banner-box p {
+    color: #fff;
+    font-size: 20px;
+    width: 420px;
+    margin-bottom: 100px;
+}
+
+#banner-box a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(59,157,10) 0%, rgb(83,179,5) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(59,157,10) 0%, rgb(83,179,5) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(59,157,10) 0%, rgb(83,179,5) 100%);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.26);
+}
+
+section:nth-child(1) h2 {
+    height: 0;
+    text-indent: -1000px;
+}
+
+section:nth-child(1) li {
+    float: left;
+    width:32%;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section:nth-child(1) h3 {
+    margin: 20px 0;
+    color: #ccc;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section:nth-child(1) p {
+    width: 80%;
+    margin: 0 10%;
+    line-height: 1.4em
+}
+
+
+section:nth-child(1) li:nth-child(2) {
+    margin: 40px 2%;
+}
+
+section:nth-child(1):after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+section:nth-child(2) {
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+}
+
+section:nth-child(2) h2 {
+    position: relative;
+    top: -58px;
+    color: #fff;
+    background-color: green;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 auto;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+}
+
+section:nth-child(2) img {
+    float: left;
+}
+
+section:nth-child(2) blockquote {
+    float: left;
+    width: 70%;
+    padding-top: 100px;
+    background: url(../images/quotes.png) no-repeat;
+    text-align: center;
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+
+section:nth-child(2):after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+section:nth-child(3) h2 {
+    position: relative;
+    top: -58px;
+    color: #fff;
+    background-color: green;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 auto;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+}
+
+section:nth-child(3) {
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+}
+
+section:nth-child(3) ul {
+    float: left;
+    padding-left: 40px;
+    list-style-type: none;
+    line-height: 2em;
+}
+
+
+section:nth-child(3) ul li{
+    clear: left;
+}
+
+section:nth-child(3) ul li:before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url(../images/icons.png) no-repeat;
+}
+
+section:nth-child(3) ul li:nth-child(1):before{
+    background-position: -158px 0px;
+}
+
+section:nth-child(3) ul li:nth-child(2):before{
+    background-position: -198px 0px;
+}
+
+section:nth-child(3) ul li:nth-child(3):before{
+    background-position: -240px 0px;
+}
+
+
+section:nth-child(3) img {
+    float: right;
+}
+
+section:nth-child(3):after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#contact-media li {
+    position: relative;
+    top: -40px;
+    left: 40px;
+    float: left;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    text-indent: -1000px;
+    background: url(../images/icons.png) no-repeat;
+}
+
+#contact-media li:nth-child(2) {
+    background-position: -40px 0px;
+}
+
+#contact-media li:nth-child(3) {
+    background-position: -80px 0px;
+}
+
+#contact-media li:nth-child(4) {
+    background-position: -120px 0px;
+}
+
+#contact-media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+
+
